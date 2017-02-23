@@ -1,0 +1,181 @@
+/*公共样式*/
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+li{list-style: none;}
+a{text-decoration: none;}
+
+.t-title {
+	text-align: center;
+	margin-bottom: 53px;
+	color: #D33636;
+}
+.t-title img {
+	margin-bottom: 35px;
+}
+.t-title h4 {
+	font-family: "微软雅黑";
+	font-size: 35px;
+	font-weight: normal;
+	letter-spacing: 10px;
+	margin-bottom: 40px;
+}
+.t-title i {
+	font-size: 25px;
+	margin-top: 10px;
+}
+.t-title p {
+	font-size: 8px;
+	letter-spacing: 12px;
+	word-spacing: 20px;
+}
+
+
+/*头部区域*/
+#header {
+	height: 795px;
+	 position: relative;
+	 background:url(../img/banner.jpg);
+	 background-position: center;
+}
+#header .navbar-static-top {position: fixed;top: 0;}
+#header .navbar {width: 100%; height: 80px; background: url(../img/personal_web/assets/Rectangle.png) no-repeat; border-bottom: none;}
+#header h3{float: left; display: inline-block; font-size: 40px; font-family:"宋体"; letter-spacing: 1px; height: 60px; color:#fff; }
+#header .navbar-collapse {float: right;}
+#header .navbar-collapse .nav {}
+#header .navbar-collapse .nav li {
+	height: 80px; margin-right: 35px;
+}
+#header .navbar-collapse .nav li a {
+	width: 88px; height: 80px; display: inline-block; line-height: 50px; text-align: center;	 font-size: 22px; color: #fff;
+}
+#header .navbar-collapse .nav .active a {
+	background-color: transparent; border-top: 5px solid #cb3636; border-bottom: 5px solid #cb3636; color: #cb3636; line-height: 45px;
+}
+#header .poster-title {
+ 	width: 767px; height: 322px; position: absolute; top:32%; left: 22%;
+}
+
+
+
+/*exhibition*/
+#exhibution {
+	padding-top: 40px;
+	padding-bottom: 66px;
+	border-bottom: 10px solid #d33636;
+}
+
+#exhibution {
+}
+#exhibution  .row{}
+#exhibution  .row .row-work {
+	margin-bottom: 50px;
+}
+#exhibution  .row .row-word {
+	text-align: center;
+	margin-top: 32px;
+}
+#exhibution  .row .row-word em {
+	font-family: "宋体";
+	font-size: 20px;
+	font-style: normal;
+	letter-spacing: 2px;
+}
+#exhibution  .row .row-word h5 {
+	font-size: 20px;
+	letter-spacing: 4px;
+}
+#exhibution  .row .row-word strong {
+	font-size: 18px;
+	font-weight: normal;
+	color: #7f7f7f;
+	letter-spacing: 5px;
+}
+#exhibution  .row .row-word i {
+	width: 40px;
+	color: #d5d5d5;
+}
+#exhibution .container .more{
+	display: block;
+	width: 365px;
+	height: 76px;
+	line-height: 76px;
+	text-align: center;
+	margin: 42px auto;
+	background: #d33636;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 4px;
+	box-shadow: 0 5px 3px #ADADAD;
+}
+#exhibution .container .more:hover{
+	text-decoration: none;
+}
+
+/*contact*/
+
+#contact {
+	padding-top: 33px;
+	height: 562px;
+	background: #333;
+	color: #fff;
+}
+#contact .t-title {
+	color:#fff;
+}
+#contact .t-title h4 {
+	color: #fff;
+}
+#contact .t-title i {}
+#contact .row {
+	margin-top: 55px;
+}
+#contact .row .col-lg-5 {
+	height: 54px;
+	margin-bottom: 50px;
+}
+#contact .row .col-lg-5 img {
+	margin-right: 25px;
+	display: inline-block;
+	margin-top: -5px;
+}
+#contact .row .col-lg-5 span {
+	position: relative;
+	top: 7px;
+	font-size: 30px;
+}
+#contact .row .col-lg-7 {
+	height: 54px;
+	margin-bottom: 50px;
+	position:relative;
+}
+#contact .row .col-lg-7 img {
+	margin-right: 25px;
+	display: inline-block;
+	margin-top: -5px;
+}
+#contact .row .col-lg-7 .pic {
+	position: absolute;
+	top: 3px;
+	left: 360px;
+}
+#contact .row .col-lg-7 span {
+	font-size: 30px;
+	position: relative;
+	top: 7px;
+}
+#contact .container .line {
+	display: inline-block;
+	width: 60px;
+	border-bottom: 4px solid #D33636;
+	margin-left: 535px;
+}
+#contact .container .foot {
+	font-size: 10px;
+	width: 280px;
+	margin-left: 455px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+}
